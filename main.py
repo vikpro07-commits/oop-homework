@@ -298,3 +298,19 @@ print("Средняя оценка студентов по курсу Python:",
 
 print("Средняя оценка лекторов по курсу Python:",
       average_lecture_grade(lecturers, 'Python'))
+# ==========================================================
+# Проверка функций задания №4
+# ==========================================================
+
+students = [student]
+lecturers = [lecturer]
+
+print(
+    "Средняя оценка студентов по курсу Python:",
+    average_hw_grade(students, 'Python')
+)
+
+print(
+    "Средняя оценка лекторов по курсу Python:",
+    average_lecture_grade(lecturers, 'Python')
+)
